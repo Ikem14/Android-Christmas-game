@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Christmas TicTacToe</string>
+    <string name="menuTitle">CHRISTMAS\nTic Tac Toe</string>
+    <string name="playAgainstFriend">Play Against a Friend</string>
+    <string name="playAgainstGrinch">Play Against the Grinch</string>
+    <string name="menuBackground">Menu background</string>
+    <string name="exit">EXIT</string>
+    <string name="restart">RESTART</string>
+    <string name="christmasTurn">IT\'S CHRISTMAS\' TURN</string>
+    <string name="grinchTurn">IT\'S GRINCH TURN</string>
+    <string name="santaTurn">IT\'S SANTA\'S TURN</string>
+    <string name="drawText">IT\'S A DRAW. TRY AGAIN</string>
+    <string name="green_ball">Green Ornament</string>
+    <string name="blue_ball">Blue Ornament</string>
+    <string name="red_ball">Red Ornament</string>
+    <string name="santa">Santa</string>
+    <string name="MusicON">MUSIC ON</string>
+    <string name="MusicOFF">MUSIC OFF</string>
+
+
+</resources>

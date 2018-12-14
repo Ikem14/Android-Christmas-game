@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/redchristmasbackground">
+
+    <!-- Background Image
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/menuBackground"
+        android:scaleType="center"
+        android:src="@mipmap/redchristmasbackground" /> -->
+
+    <ImageView
+        android:id="@+id/santaImageView"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/santa"
+        app:srcCompat="@mipmap/santasleigh" />
+
+    <!-- Menu Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/santaImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/menuTitle"
+        android:fontFamily="serif"
+        android:text="@string/menuTitle"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <!-- Play against the Grinch Button -->
+    <Button
+        android:id="@+id/playAgainstGrinchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:background="@null"
+        android:text="@string/playAgainstGrinch"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/turnColor"
+        android:textStyle="bold" />
+
+    <!-- Play against your Friend Button -->
+    <Button
+        android:id="@+id/playAgainstFriendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playAgainstGrinchBtn"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:text="@string/playAgainstFriend"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/turnColor"
+        android:textStyle="bold" />
+
+    <!-- Ornament Images-->
+    <ImageView
+        android:id="@+id/redBallImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/red_ball"
+        android:src="@mipmap/red_ball" />
+
+    <ImageView
+        android:id="@+id/greenBallImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/green_ball"
+        android:src="@mipmap/green_ball" />
+
+    <ImageView
+        android:id="@+id/blueBallImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/blue_ball"
+        android:src="@mipmap/blue_ball" />
+
+    <!--Snow animation-->
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
